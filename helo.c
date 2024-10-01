@@ -32,7 +32,7 @@ int main(){
         }
     }
 
-     printf("%s\n",resultString);
+    printf("%s\n",resultString);
 
     getch();
     return 0;

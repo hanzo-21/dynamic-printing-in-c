@@ -1,0 +1,545 @@
+this is the documentation of dynamic printing in c
+
+what this program does is it inputs a string including spaces and 
+prints one letter at a time starting from 'a' till it reaches the required character
+of that index
+once it reaches it moves on to the next one till all charactes are matched 
+in resluting a cool drop down word fromation 
+
+Waring by default i set the cahracter lenth to 20 so if you intend to input 
+greater strings lenght change the limit 
+
+eg
+Hello world
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+{
+|
+}
+~
+⌂
+Ç
+ü
+é
+â
+ä
+à
+å
+ç
+ê
+ë
+è
+ï
+î
+ì
+Ä
+Å
+É
+æ
+Æ
+ô
+ö
+ò
+û
+ù
+ÿ
+Ö
+Ü
+¢
+£
+¥
+₧
+ƒ
+á
+í
+ó
+ú
+ñ
+Ñ
+ª
+º
+¿
+⌐
+¬
+½
+¼
+¡
+«
+»
+░
+▒
+▓
+│
+┤
+╡
+╢
+╖
+╕
+╣
+║
+╗
+╝
+╜
+╛
+┐
+└
+┴
+┬
+├
+─
+┼
+╞
+╟
+╚
+╔
+╩
+╦
+╠
+═
+╬
+╧
+╨
+╤
+╥
+╙
+╘
+╒
+╓
+╫
+╪
+┘
+┌
+█
+▄
+▌
+▐
+▀
+α
+ß
+Γ
+π
+Σ
+σ
+µ
+τ
+Φ
+Θ
+Ω
+δ
+∞
+φ
+ε
+∩
+≡
+±
+≥
+≤
+⌠
+⌡
+÷
+≈
+°
+∙
+·
+√
+ⁿ
+²
+■
+ 
+
+☺
+☻
+♥
+♦
+♣
+♠
+
+
+
+
+
+♂
+♀
+
+♫
+☼
+►
+◄
+↕
+‼
+¶
+§
+▬
+↨
+↑
+↓
+→
+←
+∟
+↔
+▲
+▼
+
+!
+"
+#
+$
+%
+&
+'
+(
+)
+*
++
+,
+-
+.
+/
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:
+;
+<
+=
+>
+?
+@
+A
+B
+C
+D
+E
+F
+G
+Ha
+Hb
+Hc
+Hd
+Hea
+Heb
+Hec
+Hed
+Hee
+Hef
+Heg
+Heh
+Hei
+Hej
+Hek
+Hela
+Helb
+Helc
+Held
+Hele
+Helf
+Helg
+Helh
+Heli
+Helj
+Helk
+Hella
+Hellb
+Hellc
+Helld
+Helle
+Hellf
+Hellg
+Hellh
+Helli
+Hellj
+Hellk
+Helll
+Hellm
+Helln
+Helloa
+Hellob
+Helloc
+Hellod
+Helloe
+Hellof
+Hellog
+Helloh
+Helloi
+Helloj
+Hellok
+Hellol
+Hellom
+Hellon
+Helloo
+Hellop
+Helloq
+Hellor
+Hellos
+Hellot
+Hellou
+Hellov
+Hellow
+Hellox
+Helloy
+Helloz
+Hello{
+Hello|
+Hello}
+Hello~
+Hello⌂
+HelloÇ
+Helloü
+Helloé
+Helloâ
+Helloä
+Helloà
+Helloå
+Helloç
+Helloê
+Helloë
+Helloè
+Helloï
+Helloî
+Helloì
+HelloÄ
+HelloÅ
+HelloÉ
+Helloæ
+HelloÆ
+Helloô
+Helloö
+Helloò
+Helloû
+Helloù
+Helloÿ
+HelloÖ
+HelloÜ
+Hello¢
+Hello£
+Hello¥
+Hello₧
+Helloƒ
+Helloá
+Helloí
+Helloó
+Helloú
+Helloñ
+HelloÑ
+Helloª
+Helloº
+Hello¿
+Hello⌐
+Hello¬
+Hello½
+Hello¼
+Hello¡
+Hello«
+Hello»
+Hello░
+Hello▒
+Hello▓
+Hello│
+Hello┤
+Hello╡
+Hello╢
+Hello╖
+Hello╕
+Hello╣
+Hello║
+Hello╗
+Hello╝
+Hello╜
+Hello╛
+Hello┐
+Hello└
+Hello┴
+Hello┬
+Hello├
+Hello─
+Hello┼
+Hello╞
+Hello╟
+Hello╚
+Hello╔
+Hello╩
+Hello╦
+Hello╠
+Hello═
+Hello╬
+Hello╧
+Hello╨
+Hello╤
+Hello╥
+Hello╙
+Hello╘
+Hello╒
+Hello╓
+Hello╫
+Hello╪
+Hello┘
+Hello┌
+Hello█
+Hello▄
+Hello▌
+Hello▐
+Hello▀
+Helloα
+Helloß
+HelloΓ
+Helloπ
+HelloΣ
+Helloσ
+Helloµ
+Helloτ
+HelloΦ
+HelloΘ
+HelloΩ
+Helloδ
+Hello∞
+Helloφ
+Helloε
+Hello∩
+Hello≡
+Hello±
+Hello≥
+Hello≤
+Hello⌠
+Hello⌡
+Hello÷
+Hello≈
+Hello°
+Hello∙
+Hello·
+Hello√
+Helloⁿ
+Hello²
+Hello■
+Hello 
+Hello
+Hello☺
+Hello☻
+Hello♥
+Hello♦
+Hello♣
+Hello♠
+Hello
+Hell
+Hello
+Hello
+
+Hello♂
+Hello♀
+
+Hello♫
+Hello☼
+Hello►
+Hello◄
+Hello↕
+Hello‼
+Hello¶
+Hello§
+Hello▬
+Hello↨
+Hello↑
+Hello↓
+Hello→
+Hello←
+Hello∟
+Hello↔
+Hello▲
+Hello▼
+Hello a
+Hello b
+Hello c
+Hello d
+Hello e
+Hello f
+Hello g
+Hello h
+Hello i
+Hello j
+Hello k
+Hello l
+Hello m
+Hello n
+Hello o
+Hello p
+Hello q
+Hello r
+Hello s
+Hello t
+Hello u
+Hello v
+Hello wa
+Hello wb
+Hello wc
+Hello wd
+Hello we
+Hello wf
+Hello wg
+Hello wh
+Hello wi
+Hello wj
+Hello wk
+Hello wl
+Hello wm
+Hello wn
+Hello woa
+Hello wob
+Hello woc
+Hello wod
+Hello woe
+Hello wof
+Hello wog
+Hello woh
+Hello woi
+Hello woj
+Hello wok
+Hello wol
+Hello wom
+Hello won
+Hello woo
+Hello wop
+Hello woq
+Hello wora
+Hello worb
+Hello worc
+Hello word
+Hello wore
+Hello worf
+Hello worg
+Hello worh
+Hello wori
+Hello worj
+Hello work
+Hello worla
+Hello worlb
+Hello worlc
+Hello world
