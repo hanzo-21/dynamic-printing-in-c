@@ -26,8 +26,6 @@ int main(){
     
     //intitlize the result tring as blanks or ' ' 
 
-    printf("%s\n",inputString);
-
     for(i=0;i<charLimit;i++){
         resultString[i]=' ';
     }
