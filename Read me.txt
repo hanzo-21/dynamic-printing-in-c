@@ -543,3 +543,7 @@ Hello worla
 Hello worlb
 Hello worlc
 Hello world
+
+
+upadte 2024 oct 16 
+    Added system ("cls") so that with eache loop the conclose is clears out and added "hello world!" as default string and commented the input section of the code. 
